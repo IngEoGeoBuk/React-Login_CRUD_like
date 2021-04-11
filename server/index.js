@@ -11,9 +11,9 @@ app.use(express.json());
 
 const db = mysql.createConnection({
     user: 'root',
-    host: 'localhost',
-    password: 'qkdgkahr7365',
-    database: 'fifa'
+    host: 'input your Host name(ex: localhost)',
+    password: 'input your DB password',
+    database: 'input your DB Name'
 }); 
 
 ////// 게시물부분 //////
