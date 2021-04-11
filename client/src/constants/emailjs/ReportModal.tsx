@@ -24,7 +24,7 @@ const EmailJS : React.FC<getProps> = ({ poId, coId, poEmail, logedEmail }) => {
   function sendEmail(e: any) {
     e.preventDefault();
 
-emailjs.sendForm('service_sd26pph', 'template_7aaemqq', e.target, 'user_987Q4cQjWsd1ZDiMLuiw3')
+emailjs.sendForm('input', 'your', e.target, 'emailJS config')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
