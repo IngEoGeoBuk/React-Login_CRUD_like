@@ -9,3 +9,7 @@ I used React + Typescript + Google oauth + EmailJS
 6) send a report email about post or comment(used emailJS)
 
 If you're not logged in, you can only read it.
+
+![테이블](https://user-images.githubusercontent.com/59249899/114303510-65364b00-9b09-11eb-9d28-5c03d79583e3.JPG)
+
+
